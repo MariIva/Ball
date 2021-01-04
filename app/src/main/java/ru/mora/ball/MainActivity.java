@@ -54,8 +54,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 // берем значения по Х
                 MyDraw.aX= event.values[1];
                 // берем значения по Y
-                // *5 - без этого инменение этого параметра минимальное
-                MyDraw.aY= event.values[0]*5;
+                MyDraw.aY= event.values[0];
         }
     }
 

@@ -95,7 +95,7 @@ public class MyDraw extends View {
         } else vy = 0;
 
         vx *= aX;
-        vy += aY;
+        vy *= aY;
 
         // если не упираемся границы экрана изменяем значения
         if (ball.x-ball.r+vx>=0 && ball.x+ball.r+vx<=viewWidth){
